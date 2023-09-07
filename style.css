@@ -1,0 +1,122 @@
+
+body {
+    background-image: url('backg.png');
+    background-size: contain;
+}
+
+#logoCont {
+    padding-top: 2%;
+    justify-content: center;
+}
+
+#logo {
+    height: 250px;
+}
+
+#contenedor {
+    display: flex;
+    justify-content: center;
+    padding-left: 10%; 
+    padding-right: 10%; 
+    padding-top: 4%; 
+    padding-bottom: 5%;
+}
+
+.card {
+    width:182px; 
+    height: 310px; 
+    margin: 10px
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 5px 5px 5px rgb(37, 37, 37);
+}
+
+.card-img-top {
+    height:180px; 
+    width:180px; 
+    background-image: url('fondo.png');
+}
+
+h6 {
+    text-transform:uppercase;
+}
+
+p {
+    width:60px;
+    color: white;
+    font-size: 14px
+}
+
+.normal {
+    background-color: rgb(170, 167, 152);
+}
+
+.grass {
+    background-color: #8bb946;
+}
+
+.poison {
+    background-color: #b97fc9;
+}
+
+.fire {
+    background-color: #fd7d24;
+}
+
+.water {
+    background-color: #4592c4;
+}
+
+.flying {
+    background-color: rgb(97, 176, 187);
+}
+
+.bug {
+    background-color: #729f3f;
+}
+
+.electric {
+    background-color: #d8bf1f;
+}
+
+.ground {
+    background-color: rgb(199, 148, 71);
+}
+
+.fairy {
+    background-color: #ffaae6;
+}
+
+.fighting {
+    background-color: #d56723;
+}
+
+.psychic {
+    background-color: #f366b9;
+}
+
+.steel {
+    background-color: #aab7b8;
+}
+
+.rock {
+    background-color: #966418;
+}
+
+.ice {
+    background-color: #8ab4b6;
+}
+
+.dragon {
+    background-color: rgb(148, 134, 226);
+}
+
+.ghost {
+    background-color: #7b62a3;
+}
+
+.dark {
+    background-color: #646464;
+}
